@@ -1,0 +1,32 @@
+<!-- <p>
+  home Page 
+  <h1>{{hero}}</h1>
+  <small>Array</small>
+  <h2>{{heros.name}} Details</h2>
+  	<div><span>id: </span>{{heros.id}}</div>
+  	<div><span>name: </span>{{heros.name}}</div> 
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nam iure quos, aut voluptates cum. Commodi nihil itaque molestias nemo iure, nobis pariatur ratione voluptatem, in vel laudantium fugiat fugit possimus dicta quia sequi deleniti amet. Soluta repudiandae eveniet rem, at! Eaque qui eligendi officiis explicabo, odit ipsam voluptatibus ab.
+</p>
+<button (click)="alert()">alert</button>
+<button (click)="consolelog()">consolelog</button>
+ -->
+
+<!-- <button (click)="alert()">alert</button>
+<button (click)="consolelog()">consolelog</button> -->
+
+
+
+<h1>{{title}}</h1>
+  <h2>My favorite hero is: {{myHero}}</h2>
+  your heroes lenth is lower than 10 (total lenth: {{heroes.length}})
+  <ul *ngIf="heroes.length > 10">
+    <li *ngFor="let hero of heroes">
+      {{ hero }}
+    </li>
+  </ul>
+
+
+
+    <li *ngFor="let newm of multihero">
+      {{ newm.id }} {{ newm.name }}
+    </li>

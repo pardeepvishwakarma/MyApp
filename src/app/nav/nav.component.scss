@@ -1,0 +1,29 @@
+header {
+    background: #55ad4b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .logo {
+        font-weight: bold;
+    }
+
+    nav {
+        justify-self: right;
+    
+        ul {
+            list-style-type: none;
+            margin: 0; padding: 0;
+
+            li {
+                float: left;
+
+                a {
+                    padding: 1.5em;
+                    text-transform: uppercase;
+                    font-size: .8em;
+                }
+            }
+        }
+    }
+}

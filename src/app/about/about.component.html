@@ -1,0 +1,27 @@
+<p>
+  about works!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nam iure quos, aut voluptates cum. Commodi nihil itaque molestias nemo iure, nobis pariatur ratione voluptatem, in vel laudantium fugiat fugit possimus dicta quia sequi deleniti amet. Soluta repudiandae eveniet rem, at! Eaque qui elaaaigen di officiis explicabo, odit ipsam voluptatibus ab.
+</p>
+<table class="table table-striped">
+   <tr *ngFor="let todo of todo_array">
+       {{todo}}
+   </tr>
+</table>
+About Page
+<li *ngFor="let hero of Hero" (click)="onSelect(hero)">
+	<span class="badge">{{hero.id}}</span> {{hero.name}}
+</li>
+
+<!-- <h2>{{herocount.name | uppercase}} Details</h2>
+<div><span>id: </span>{{herocount.id}}</div>
+<div>
+  <label>name:
+    <input [(ngModel)]="herocount.name" placeholder="name">
+  </label>
+</div> -->
+<div *ngIf="showloader">
+	<!-- {{selectedHero.name}} -->
+	{{sss}}	
+</div>
+
+<button class="btn btn-danger" (click)="clearToDo()">Clear</button>
